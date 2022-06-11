@@ -1,5 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600&display=swap");
 
+:root {
+  --blue-primary: #1363df;
+  --blue-secondary: #1f4690;
+}
+
 *,
 html {
   padding: 0;
@@ -52,14 +57,14 @@ html {
   margin-top: 30px;
 }
 
-.nav-home__item a {
-  color: #1363df;
+.nav-item a {
+  color: var(--blue-primary);
   transition: ease-in-out 0.3s color;
   font-weight: 500;
 }
 
-.nav-home__item a:hover,
-.nav-home__item a:active,
-.nav-home__item a:focus {
-  color: #1f4690;
+.nav-item a:hover,
+.nav-item a:active,
+.nav-item a:focus {
+  color: var(--blue-secondary);
 }

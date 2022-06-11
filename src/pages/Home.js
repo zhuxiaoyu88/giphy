@@ -17,10 +17,10 @@ export default function Home() {
           <GiphyLogo />
         </a>
         <ul className="nav-home text-uppercase text-center">
-          <li className="nav-home__item">
+          <li className="nav-home__item nav-item">
             <Link to="/list">Iron Man Giphy</Link>
           </li>
-          <li className="nav-home__item">
+          <li className="nav-home__item nav-item">
             <Link to="/search">Search Your Giphy</Link>
           </li>
         </ul>

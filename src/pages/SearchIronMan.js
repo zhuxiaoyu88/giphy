@@ -1,3 +1,10 @@
+import Navbar from "../components/Navbar/Navbar";
+
 export default function SearchIronMan() {
-  return <h1>Hello from Search Iron Man </h1>;
+  return (
+    <main>
+      <Navbar></Navbar>
+      <h1>Search Iron Man Giphy</h1>
+    </main>
+  );
 }

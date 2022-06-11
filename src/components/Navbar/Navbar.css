@@ -1,0 +1,20 @@
+.nav-top {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+  flex-direction: row;
+  padding: 15px 30px;
+  box-shadow: 0 2px 8px 0 #e3e3e3;
+}
+
+.nav-top__item {
+  padding: 7.5px 0;
+}
+
+.nav-top__item a {
+  text-decoration: none;
+}
+
+.nav-top__item a.active {
+  color: var(--blue-secondary);
+}
