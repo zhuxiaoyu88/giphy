@@ -1,5 +1,65 @@
-@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600&display=swap");
 
-.App {
+*,
+html {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
   font-family: "Rubik", sans-serif;
+  font-weight: 400;
+}
+
+.container {
+  max-width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.main-heading--home {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  height: 100vh;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.main-heading__title {
+  font-weight: 600;
+  font-size: 36px;
+}
+
+.main-heading--home__logo {
+  width: 100%;
+  height: auto;
+  max-width: 250px;
+  margin: 45px 0 30px;
+}
+
+.nav-home {
+  list-style: none;
+  display: grid;
+  grid-template-rows: auto auto;
+  row-gap: 15px;
+  margin-top: 30px;
+}
+
+.nav-home__item a {
+  color: #1363df;
+  transition: ease-in-out 0.3s color;
+  font-weight: 500;
+}
+
+.nav-home__item a:hover,
+.nav-home__item a:active,
+.nav-home__item a:focus {
+  color: #1f4690;
 }
