@@ -49,9 +49,9 @@ export default function IronManList() {
   }
 
   function generateEndpoint(keywordParams = "Iron Man", limit = 9) {
-    const APIKEY = process.env.APP_KEY;
+    const APIKEY = process.env.REACT_APP_KEY;
     const keyword = new URLSearchParams(keywordParams);
-    const ENDPOINT = `${process.env.BASE_URL}/search?api_key=${APIKEY}&q=${keyword}&limit=${limit}&rating=g&lang=en`;
+    const ENDPOINT = `${process.env.REACT_APP_BASE_URL}/search?api_key=${APIKEY}&q=${keyword}&limit=${limit}&rating=g&lang=en`;
 
     return ENDPOINT;
   }
