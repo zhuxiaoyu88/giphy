@@ -1,3 +1,26 @@
 .giphy-card {
-  background-color: beige;
+  width: calc(100% / 3);
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.giphy-card__img {
+  height: 250px;
+  object-fit: cover;
+  width: 100%;
+}
+
+@media (max-width: 1024px) {
+  .giphy-card {
+    width: 50%;
+  }
+}
+
+@media (max-width: 767px) {
+  .giphy-card {
+    width: 100%;
+    padding: 15px 0;
+  }
 }

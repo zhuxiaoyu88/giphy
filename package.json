@@ -5,6 +5,8 @@
   "keywords": [],
   "main": "src/index.js",
   "dependencies": {
+    "@giphy/js-fetch-api": "4.2.2",
+    "@giphy/react-components": "5.8.2",
     "react": "18.0.0",
     "react-dom": "18.1.0",
     "react-router-dom": "6.3.0",

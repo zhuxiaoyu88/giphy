@@ -20,6 +20,10 @@ html {
   margin: 0 auto;
 }
 
+.container--padding-top {
+  padding-top: 30px;
+}
+
 .text-center {
   text-align: center;
 }
@@ -67,4 +71,13 @@ html {
 .nav-item a:active,
 .nav-item a:focus {
   color: var(--blue-secondary);
+}
+
+.img-reset {
+  max-width: 100%;
+  height: auto;
+}
+
+.content {
+  margin-top: 15px;
 }
